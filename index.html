@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Xiaomi Store</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- header -->
+  <nav class="zone sticky">
+    <ul class="main-nav">
+      <li id="logo"><a href="index.html"><img src="img/logo.png" alt="xiaomi logo"></a></li>
+      <li><a href="index.html">Xiaomi</a></li>
+      <li class="push" id="myBtn"><img src="img/checkout_icon.png" alt="checkout icon"></li>
+    </ul>
+  </nav>
+
+  <!-- body -->
+  <!-- carousel -->
+  <div class="slider">
+    <div class="slider-items" id="sliders">
+      
+    </div>
+    <!-- slider controls -->
+      <div class="left-slide"><</div>
+      <div class="right-slide">></div>
+    <!-- slider controls -->
+  </div>
+
+  <!-- products -->
+  <div class="flexcontainer" id="productList">
+    <!-- <div class="zone blue">Project Grid</div> -->
+    <!-- <div class="box zone">
+      <img src="./img/data_storage_2_2.png" alt="">
+      <span class="itemName">Xiaomi Redmi Note 10</span><br>
+      Php 20,000<br><br>
+      <input type="button" value="Add to Cart" class="button addToCart">
+    </div> -->
+  </div>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="Cart"><h1><img src="img/checkout_icon.png" alt="cart">  Cart</h1></div>
+      <span class="close">&times;</span>
+      <div id="Carted" class="checkout">
+      </div>
+      <div><input type="button" class="button removeCart" value="Purchase"></div>
+    </div>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
